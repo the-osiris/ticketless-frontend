@@ -1,9 +1,10 @@
 import React from 'react'
+import classes from './Button.module.css'  
 
 const Button = () => {
   return (
     <>
-        Button
+        <div className={classes.button}>Button</div>
     </>
   )
 }
